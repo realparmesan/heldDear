@@ -4,15 +4,40 @@ File: Body.css
 
 @import url("assets/css/main.css");
 
+
+/* Header */
+
+	#header {
+		position: relative;
+		margin: 0;
+		background-image: url("images/shoulder.jpg");
+		background-size: 100% auto;
+		padding: 14em 0 25em 0;
+		text-align: center;
+    background-repeat: no-repeat;
+		color: #fff;
+    height: auto;
+	}
+
 img#worldMap {
   width: 100%;
 }
 
 header#about {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-top: 40px;
 }
 
+hr.underline {
+  border: 0;
+  margin-right: 40%;
+  margin-left: 40%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 5px;
+  background: #000;
+}
+
 div#actionPlan {
-  padding-top: 20px;
+  padding-top: 40px;
 }
