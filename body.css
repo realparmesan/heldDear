@@ -7,3 +7,12 @@ File: Body.css
 img#worldMap {
   width: 100%;
 }
+
+header#about {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+div#actionPlan {
+  padding-top: 20px;
+}
