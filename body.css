@@ -1,0 +1,9 @@
+/*
+File: Body.css
+*/
+
+@import url("assets/css/main.css");
+
+img#worldMap {
+  width: 100%;
+}
