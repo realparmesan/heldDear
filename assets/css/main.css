@@ -1348,7 +1348,14 @@
 		-webkit-text-stroke: 0.1px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, {
+		color: #fff;
+		margin: 0 0 1em 0;
+		font-weight: 100;
+		line-height: 1.5em;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #666;
 		margin: 0 0 1em 0;
 		font-weight: 100;
@@ -1360,8 +1367,12 @@
 		text-decoration: none;
 	}
 
-	.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+	.dark h1, {
 		color: #fff;
+	}
+
+	.dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+		color: #666;
 	}
 
 	strong, b {
@@ -1439,6 +1450,12 @@
 
 	p {
 		text-align: justify;
+		color: #666
+	}
+
+	p0, {
+		text-align: justify;
+		color: #666
 	}
 
 	header {
@@ -1998,7 +2015,7 @@
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/overlay.png"), url("../../images/shoulder.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -2065,15 +2082,14 @@
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
-			}
+				background: #fff}
 
 			.main > .content.style2 {
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				background: url("images/green.jpg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
 			}
 
 			.main > .content.style4 {
