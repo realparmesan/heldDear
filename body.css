@@ -7,17 +7,54 @@ File: Body.css
 
 /* Header */
 
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15pt;
+}
+
+header p0 {
+	font-style: italic;
+}
+
+  #first h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: lighter:bold;
+	color:  #ba995e;
+}
+
+#first h3 {
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: lighter:bold;
+color:  #ba995e;
+}
+
+#fourth h2 {
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: lighter:bold;
+color:  #010d14;
+}
+
 	#header {
 		position: relative;
 		margin: 0;
 		background-image: url("images/shoulder.jpg");
 		background-size: 100% auto;
-		padding: 14em 0 25em 0;
+		padding: 12em 0 18em 0;
 		text-align: center;
     background-repeat: no-repeat;
 		color: #fff;
     height: auto;
 	}
+
+	#header h1 {
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 80pt;
+		line-height:normal;
+	}
+
 
 img#worldMap {
   width: 100%;
