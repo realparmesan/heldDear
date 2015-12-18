@@ -48,6 +48,14 @@ font-weight: lighter:bold;
 color:  #010d14;
 }
 
+.social-link {
+  width : 60px;
+}
+
+.container {
+  padding-bottom: 40px;
+}
+
 footer {
   background-image: url("images/Footer_01.jpg");
   margin: auto;
