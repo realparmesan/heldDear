@@ -48,6 +48,13 @@ font-weight: lighter:bold;
 color:  #010d14;
 }
 
+footer {
+  background-image: url("images/Footer_01.jpg");
+  margin: auto;
+  height: 230px;
+  text-align:center;
+}
+
 	#header {
 		position: relative;
 		margin: 0;
