@@ -23,16 +23,23 @@ body {
 	font-size: 15pt;
 }
 
+.main h2 {
+  font-size: 1.5em;
+}
+
+.main h3 {
+  font-size: 1.25em;
+}
+
 h2, h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-style: normal;
   text-align: center;
 	font-weight: lighter;
-  font-size: 1.25em;
 	color:  #ba995e;
 }
 
-.contact {
+.contact h2{
   color:  #010d14;
 }
 
