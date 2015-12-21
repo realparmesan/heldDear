@@ -1,20 +1,20 @@
 /*
 File: Body.css
 */
-
-@import url("assets/css/main.css");
-
-
-/* Header */
-
 .textColumn {
   margin: 5% 20% 5% 20%;
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
+  -ms-column-count: 2;
   column-count: 2;
   -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
   -moz-column-gap: 40px; /* Firefox */
+  -ms-column-gap: 40px;
   column-gap: 40px;
+}
+
+section {
+  padding: 0 5% 0 5%;
 }
 
 body {
@@ -23,29 +23,21 @@ body {
 	font-size: 15pt;
 }
 
-header p0 {
-	font-style: italic;
-}
-
-  #first h2 {
+h2, h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-style: normal;
-	font-weight: lighter:bold;
+  text-align: center;
+	font-weight: lighter;
+  font-size: 1.25em;
 	color:  #ba995e;
 }
 
-#first h3 {
-font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: lighter:bold;
-color:  #ba995e;
+.contact {
+  color:  #010d14;
 }
 
-#fourth h2 {
-font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: lighter:bold;
-color:  #010d14;
+.social-links {
+  text-align: center;
 }
 
 .social-link {
@@ -63,44 +55,37 @@ footer {
   text-align:center;
 }
 
-	#header {
-		position: relative;
-		margin: 0;
-		background-image: url("images/shoulder.jpg");
-		background-size: 100% auto;
-		padding: 12em 0 18em 0;
-		text-align: center;
-    background-repeat: no-repeat;
-		color: #fff;
-    height: auto;
-	}
+header {
+	position: relative;
+	margin: 0;
+	background-image: url("images/shoulder.jpg");
+	background-size: 100% auto;
+	padding: 12em 0 18em 0;
+	text-align: center;
+  background-repeat: no-repeat;
+  height: auto;
+}
 
-	#header h1 {
+header p {
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
 		font-family: 'Ubuntu', sans-serif;
 		font-size: 80pt;
 		line-height:normal;
-	}
+    color: #fff;
+    text-align: center;
+}
 
-
-img#worldMap {
+.fullWidth {
   width: 100%;
 }
 
-header#about {
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
-
-hr.underline {
+.underline {
   border: 0;
-  margin-right: 40%;
-  margin-left: 40%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 40% 0 40%;
   height: 5px;
   background: #000;
-}
-
-div#actionPlan {
-  padding-top: 40px;
 }
