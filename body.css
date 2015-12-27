@@ -55,6 +55,10 @@ h2, h3 {
   color:  #010d14;
 }
 
+.contact p {
+  text-align: center;
+}
+
 .social-links {
   text-align: center;
 }
@@ -141,7 +145,7 @@ h1 {
 }
 
 .underline {
-  border: 0;
+  border: 10px;
   margin: 0 40% 0 40%;
   height: 5px;
   background: #000;
