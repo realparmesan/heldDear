@@ -1,16 +1,29 @@
 /*
 File: Body.css
 */
-.textColumn {
-  margin: 5% 20% 5% 20%;
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
-  -ms-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 40px; /* Firefox */
-  -ms-column-gap: 40px;
-  column-gap: 40px;
+
+@media only screen and (min-width:960px){
+    /* styles for browsers larger than 960px; */
+    .textColumn {
+      margin: 5% 10% 5% 10%;
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      -ms-column-count: 2;
+      column-count: 2;
+      -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+      -moz-column-gap: 40px; /* Firefox */
+      -ms-column-gap: 40px;
+      column-gap: 40px;
+    }
+}
+@media only screen and (max-width:960px){
+    /* styles for browsers larger than 960px; */
+    .textColumn {
+      padding-top: 5%;
+    }
+}
+.contact {
+  padding-top: 5%;
 }
 
 section {
@@ -20,15 +33,14 @@ section {
 body {
 	font-family: 'Open Sans', sans-serif;
   background-color: white;
-	font-size: 15pt;
 }
 
 .main h2 {
-  font-size: 1.5em;
+  font-size: 150%;
 }
 
 .main h3 {
-  font-size: 1.25em;
+  font-size: 125%;
 }
 
 h2, h3 {
@@ -39,7 +51,7 @@ h2, h3 {
 	color:  #ba995e;
 }
 
-.contact h2{
+.contact h2 {
   color:  #010d14;
 }
 
@@ -67,20 +79,58 @@ header {
 	margin: 0;
 	background-image: url("images/shoulder.jpg");
 	background-size: 100% auto;
-	padding: 12em 0 18em 0;
+  background-position: center;
+  padding-bottom:15%;
 	text-align: center;
   background-repeat: no-repeat;
-  height: auto;
 }
+
+@media all and (orientation:portrait) {
+  header {
+    	background-image: url("images/shoulder-mobile.jpg");
+  }
+}
+
+@media only screen and (min-width:960px){
+    /* styles for browsers larger than 960px; */
+    header {padding:10% 0 10% 0;}
+}
+@media only screen and (min-width:1440px){
+    /* styles for browsers larger than 1440px; */
+    header {padding:15% 0 15% 0;}
+}
+@media only screen and (min-width:2000px){
+    /* for sumo sized (mac) screens */
+    header {padding:20% 0 20% 0;}
+}
+@media only screen and (max-device-width:480px){
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+   header {padding:5% 0 5% 0;}
+}
+@media only screen and (device-width:768px){
+   /* default iPad screens */
+   header {padding:5% 0 5% 0;}
+}
+
 
 header p {
   color: #fff;
   text-align: center;
 }
 
+header img {
+  height: auto;
+  width: 20%;
+}
+
+footer img {
+  height: auto;
+  width: 12%;
+}
+
 h1 {
 		font-family: 'Ubuntu', sans-serif;
-		font-size: 80pt;
+		font-size: 300%;
 		line-height:normal;
     color: #fff;
     text-align: center;
