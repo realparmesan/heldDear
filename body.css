@@ -2,26 +2,6 @@
 File: Body.css
 */
 
-@media only screen and (min-width:960px){
-    /* styles for browsers larger than 960px; */
-    .textColumn {
-      margin: 5% 10% 5% 10%;
-      -webkit-column-count: 2; /* Chrome, Safari, Opera */
-      -moz-column-count: 2; /* Firefox */
-      -ms-column-count: 2;
-      column-count: 2;
-      -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-      -moz-column-gap: 40px; /* Firefox */
-      -ms-column-gap: 40px;
-      column-gap: 40px;
-    }
-}
-@media only screen and (max-width:960px){
-    /* styles for browsers larger than 960px; */
-    .textColumn {
-      padding-top: 5%;
-    }
-}
 .contact {
   padding-top: 5%;
 }
@@ -89,34 +69,6 @@ header {
   background-repeat: no-repeat;
 }
 
-@media all and (orientation:portrait) {
-  header {
-    	background-image: url("images/shoulder-mobile.jpg");
-  }
-}
-
-@media only screen and (min-width:960px){
-    /* styles for browsers larger than 960px; */
-    header {padding:10% 0 10% 0;}
-}
-@media only screen and (min-width:1440px){
-    /* styles for browsers larger than 1440px; */
-    header {padding:15% 0 15% 0;}
-}
-@media only screen and (min-width:2000px){
-    /* for sumo sized (mac) screens */
-    header {padding:20% 0 20% 0;}
-}
-@media only screen and (max-device-width:480px){
-   /* styles for mobile browsers smaller than 480px; (iPhone) */
-   header {padding:5% 0 5% 0;}
-}
-@media only screen and (device-width:768px){
-   /* default iPad screens */
-   header {padding:5% 0 5% 0;}
-}
-
-
 header p {
   color: #fff;
   text-align: center;
@@ -144,9 +96,73 @@ h1 {
   width: 100%;
 }
 
+.underlined {
+  margin-bottom: 1%;
+}
+
+.row {
+  margin: 0 auto 0 auto;
+}
+
 .underline {
   border: 10px;
-  margin: 0 40% 0 40%;
   height: 5px;
   background: #000;
+}
+
+.page-break {
+  -webkit-column-break-before: always;
+}
+
+@media all and (orientation:portrait) {
+  header {
+    	background-image: url("images/shoulder-mobile.jpg");
+  }
+}
+
+@media only screen and (min-width:960px){
+    /* styles for browsers larger than 960px; */
+    header {padding:10% 0 10% 0;}
+    .textColumn {
+      margin: 5% 15% 5% 15%;
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      -ms-column-count: 2;
+      column-count: 2;
+      -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+      -moz-column-gap: 40px; /* Firefox */
+      -ms-column-gap: 40px;
+      column-gap: 40px;
+    }
+  .underline {
+    margin: 0 45% 2% 45%;
+  }
+}
+@media only screen and (max-width:960px){
+    /* styles for browsers larger than 960px; */
+    .textColumn {
+      padding-top: 5%;
+    }
+}
+@media only screen and (min-width:1440px){
+    /* styles for browsers larger than 1440px; */
+    header {padding:15% 0 15% 0;}
+}
+@media only screen and (min-width:2000px){
+    /* for sumo sized (mac) screens */
+    header {padding:20% 0 20% 0;}
+}
+@media only screen and (max-device-width:480px){
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+   header {padding:5% 0 5% 0;}
+   .underline {
+     margin: 0 25% 2% 25%;
+   }
+}
+@media only screen and (device-width:768px){
+   /* default iPad screens */
+   header {padding:5% 0 5% 0;}
+   .underline {
+     margin: 0 35% 2% 35%;
+   }
 }
