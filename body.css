@@ -2,7 +2,7 @@
 File: Body.css
 */
 
-<link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit/MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
+@import "fonts/MyFontsWebfontsKit.css";
 
 .contact {
   padding-top: 5%;
@@ -30,10 +30,9 @@ center, p {
 }
 
 h2, h3 {
-	font-family: 'Ubuntu', sans-serif;
-	font-style: normal;
+	font-family: BrandonGrotesqueWeb-Bold;
+  font-style: normal;
   text-align: center;
-	font-weight: lighter;
 	color:  #ba995e;
 }
 
@@ -85,14 +84,17 @@ header img {
   width: 20%;
 }
 
-footer img {
-  height: auto;
-  width: 12%;
+.footer-image {
+  width: 2em;
+}
+
+.footer-links a {
+  padding: 0 1em;
 }
 
 h1 {
-		font-family: 'Ubuntu', sans-serif;
-		font-size: 300%;
+		font-family: BrandonGrotesqueWeb-Bold;
+    font-size: 300%;
 		line-height:normal;
     color: #fff;
     text-align: center;
