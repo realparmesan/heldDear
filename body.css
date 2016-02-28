@@ -2,6 +2,8 @@
 File: Body.css
 */
 
+<link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit/MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
+
 .contact {
   padding-top: 5%;
 }
@@ -11,8 +13,12 @@ section {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: BrandonGrotesqueWeb-Medium;
   background-color: white;
+}
+
+center, p {
+  color: black;
 }
 
 .main h2 {
