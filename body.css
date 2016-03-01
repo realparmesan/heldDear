@@ -25,8 +25,12 @@ center, p {
   font-style: normal;
 }
 
+center {
+  font-size: 15px;
+  line-height: 25px;
+}
 .main h2 {
-  font-size: 175%;
+  font-size: 25px;
 }
 
 .main h3 {
@@ -38,6 +42,16 @@ h2, h3 {
   font-style: normal;
   text-align: center;
 	color:  #ba995e;
+}
+
+h3 {
+  font-family: BrandonGrotesqueWeb-Medium;
+  margin-bottom: 15px;
+}
+
+h2.about {
+  font-size: 35px;
+  font-family: BrandonGrotesqueWeb-Medium
 }
 
 .contact h2 {
@@ -58,6 +72,11 @@ h2, h3 {
 
 .container {
   padding-bottom: 40px;
+}
+
+.container p {
+  font-size: 15px;
+  line-height: 25px;
 }
 
 footer {
@@ -97,11 +116,14 @@ header img {
 }
 
 h1 {
-		font-family: BrandonGrotesqueWeb-Medium;
-    font-size: 400%;
-		line-height:normal;
-    color: #fff;
-    text-align: center;
+  padding-top: 15px;
+	font-family: BrandonGrotesqueWeb-Medium;
+  font-size: 400%;
+	line-height:normal;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
 }
 
 .fullWidth {
@@ -126,6 +148,10 @@ h1 {
   -webkit-column-break-before: always;
 }
 
+div.textColumn {
+  font-size: 15px;
+  line-height: 25px;
+}
 @media all and (orientation:portrait) {
   header {
     	background-image: url("images/shoulder-mobile.jpg");
@@ -137,6 +163,7 @@ h1 {
     header {padding:10% 0 10% 0;}
     .textColumn {
       margin: 5% 15% 5% 15%;
+      margin: 5% 12% 5% 12%;
       -webkit-column-count: 2; /* Chrome, Safari, Opera */
       -moz-column-count: 2; /* Firefox */
       -ms-column-count: 2;
