@@ -103,12 +103,12 @@ header p {
 }
 
 header img {
-  height: auto;
-  width: 10%;
+  height: 75px;
 }
 
 .footer-image {
-  width: 2em;
+  width: 30px;
+  height: auto;
 }
 
 .footer-links a {
@@ -124,6 +124,10 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
+
+img.map {
+  border-top: 3px solid #ba995e;
+  border-bottom: 3px solid #ba995e;
 }
 
 .fullWidth {
