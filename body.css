@@ -29,6 +29,7 @@ center {
   font-size: 15px;
   line-height: 25px;
 }
+
 .main h2 {
   font-size: 25px;
 }
@@ -146,6 +147,7 @@ img.map {
   border: 10px;
   height: 2px;
   background: #000;
+  margin: 0 45% 2% 45%;
 }
 
 .page-break {
@@ -156,6 +158,15 @@ div.textColumn {
   font-size: 15px;
   line-height: 25px;
 }
+
+div.left {
+  float: left;
+}
+
+div.right {
+  float: right;
+}
+
 @media all and (orientation:portrait) {
   header {
     	background-image: url("images/shoulder-mobile.jpg");
@@ -166,7 +177,6 @@ div.textColumn {
     /* styles for browsers larger than 960px; */
     header {padding:10% 0 10% 0;}
     .textColumn {
-      margin: 5% 15% 5% 15%;
       margin: 5% 12% 5% 12%;
       -webkit-column-count: 2; /* Chrome, Safari, Opera */
       -moz-column-count: 2; /* Firefox */
