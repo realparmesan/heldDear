@@ -159,14 +159,6 @@ div.textColumn {
   line-height: 25px;
 }
 
-div.left {
-  float: left;
-}
-
-div.right {
-  float: right;
-}
-
 @media all and (orientation:portrait) {
   header {
     	background-image: url("images/shoulder-mobile.jpg");
