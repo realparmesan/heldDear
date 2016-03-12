@@ -25,8 +25,13 @@ center, p {
   font-style: normal;
 }
 
+center {
+  font-size: 15px;
+  line-height: 25px;
+}
+
 .main h2 {
-  font-size: 175%;
+  font-size: 25px;
 }
 
 .main h3 {
@@ -38,6 +43,16 @@ h2, h3 {
   font-style: normal;
   text-align: center;
 	color:  #ba995e;
+}
+
+h3 {
+  font-family: BrandonGrotesqueWeb-Medium;
+  margin-bottom: 15px;
+}
+
+h2.about {
+  font-size: 35px;
+  font-family: BrandonGrotesqueWeb-Medium
 }
 
 .contact h2 {
@@ -58,6 +73,11 @@ h2, h3 {
 
 .container {
   padding-bottom: 40px;
+}
+
+.container p {
+  font-size: 15px;
+  line-height: 25px;
 }
 
 footer {
@@ -84,12 +104,12 @@ header p {
 }
 
 header img {
-  height: auto;
-  width: 10%;
+  height: 75px;
 }
 
 .footer-image {
-  width: 2em;
+  width: 30px;
+  height: auto;
 }
 
 .footer-links a {
@@ -97,11 +117,18 @@ header img {
 }
 
 h1 {
-		font-family: BrandonGrotesqueWeb-Medium;
-    font-size: 400%;
-		line-height:normal;
-    color: #fff;
-    text-align: center;
+  padding-top: 15px;
+	font-family: BrandonGrotesqueWeb-Medium;
+  font-size: 400%;
+	line-height:normal;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img.map {
+  border-top: 3px solid #ba995e;
+  border-bottom: 3px solid #ba995e;
 }
 
 .fullWidth {
@@ -120,10 +147,16 @@ h1 {
   border: 10px;
   height: 2px;
   background: #000;
+  margin: 0 45% 2% 45%;
 }
 
 .page-break {
   -webkit-column-break-before: always;
+}
+
+div.textColumn {
+  font-size: 15px;
+  line-height: 25px;
 }
 
 @media all and (orientation:portrait) {
@@ -136,7 +169,7 @@ h1 {
     /* styles for browsers larger than 960px; */
     header {padding:10% 0 10% 0;}
     .textColumn {
-      margin: 5% 15% 5% 15%;
+      margin: 5% 12% 5% 12%;
       -webkit-column-count: 2; /* Chrome, Safari, Opera */
       -moz-column-count: 2; /* Firefox */
       -ms-column-count: 2;
@@ -146,9 +179,6 @@ h1 {
       -ms-column-gap: 40px;
       column-gap: 40px;
     }
-  .underline {
-    margin: 0 45% 2% 45%;
-  }
 }
 @media only screen and (max-width:960px){
     /* styles for browsers larger than 960px; */
