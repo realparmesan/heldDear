@@ -105,6 +105,7 @@ header p {
 
 header img {
   height: 75px;
+  margin-top: 10px;
 }
 
 .footer-image {
